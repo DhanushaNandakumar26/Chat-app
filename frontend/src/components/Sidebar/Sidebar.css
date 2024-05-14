@@ -1,0 +1,9 @@
+.sidebarMain{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.sidebarContainer{
+    padding: 0 10px;
+}

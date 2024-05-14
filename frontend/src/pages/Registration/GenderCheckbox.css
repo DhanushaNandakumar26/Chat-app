@@ -1,0 +1,13 @@
+.genderCheckboxMain{
+    display: inline-flex;
+}
+
+.genderCheckboxLabel{
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.genderCheckboxElement{
+    border: 1px solid rgb(59, 55, 55);
+}

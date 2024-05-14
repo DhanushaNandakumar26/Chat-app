@@ -1,0 +1,52 @@
+.conversationsMain{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 2px;
+    overflow: auto;
+}
+
+.conversationMain{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 4px 8px;
+    cursor: pointer;
+
+}
+
+.conversationMain:hover{
+    background-color: rgb(148, 69, 29);
+}
+
+.conversationUserImage{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.conversationUserImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.conversationRightSide{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conversationRightSide p{
+    font-weight: 600;
+    color: gray;
+}
+
+.conversationRightSide span{
+    font-size: 20px;
+}
+
+.conversaionDivider{
+    margin: 0;
+    padding: 0;
+    height: 2px;
+}

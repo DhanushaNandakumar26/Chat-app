@@ -1,0 +1,21 @@
+.searchInputForm{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.seachInputBox{
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.searchInputIconButton{
+    background: transparent;
+    color: skyblue;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+.logoutButtonContainer{
+    margin-top: auto;
+    display: flex;
+    padding: 4px 8px;
+}
+
+.LogoutIcon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
